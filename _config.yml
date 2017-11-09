@@ -77,7 +77,7 @@ include: ['_pages']
 # Gems
 gems:
     - jekyll-paginate
-    - jekyll/scholar
+    - jekyll-scholar
     - jemoji
 
 # Jekyll-Scholar
