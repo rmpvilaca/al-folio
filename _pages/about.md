@@ -1,23 +1,18 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: <strong>Ricardo Vilaça</strong> 
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Braga, Portugal</p>
+ 
 
 news: true
 social: true
 ---
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently I'm a Query Engine Technical Director  at [LeanXcale](http://www.leanxcale.com) and associate researcher at [HASLab](http://haslab.uminho.pt/), one of the [INESC TEC](http://www.inesctec.pt/) research units. I obtained a degree in Computer Science and Systems Engineering from University do Minho in 2005 and the Ph.D in the MAP-i Doctoral Programme in Computer Science in 2012. I have a strong background in distributed systems and large scale data management and more than 10 years of experience in national and international research projects in distributed systems: Big Data, Large scale query processing, Cloud computing, NoSQL and SQL databases,  and database replication.
+Currently, I'm working in FP7 European research projects LeanBigData and CloudDBAppliance. I had co-supervise several research grant holders and master thesis. I had published research papers on large scale and dependable distributed systems and has served as reviewer for several highly reputed conferences and workshops such as SRDS, Middleware, LADC, DAIS and MW4SOC. He serve as PC of the MW4NG workshop and DADS conference. I also created and served as chair of the WPSDS workshop.
