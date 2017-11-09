@@ -4,7 +4,7 @@
 name: Ricardo Vilaça
 email: rmpvilaca@gmail.com
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ricardo Vilaça personal website.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,17 +19,19 @@ last_updated: # leave blank if you don't want to display last updated
 github_username: rmpvilaca# put your github username
 linkedin_username: rmpvilaca# put your linkedin username
 scholar_authorid: ZMfluQ0AAAAJ&hl # put your google scholar author id
+orcid_id: 0000-0002-6957-1536
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me or find more information in the following sites.
+
 
 google_analytics: UA-47422247-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-#blog_name: al-folio
-#blog_description: a simple whitespace theme for academics
+blog_name: TODO
+blog_description: WIP
 
 # Pagination
 paginate: 4
@@ -75,8 +77,8 @@ highlighter: pygments
 # Includes
 include: ['_pages']
 
-# Gems
-gems:
+# Plugins
+plugins:
     - jekyll-paginate
     - jekyll-scholar
     - jemoji
