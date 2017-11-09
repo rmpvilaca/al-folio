@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CloudDBAppliance
-description: CloudDBAppliance – European Cloud In-Memory Database Appliance with Predictable Performance for Critical Applications
+description: EU H2020
 img: /assets/img/clouddb.png
 redirect: http://clouddb.eu/
 ---
