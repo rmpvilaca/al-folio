@@ -1,0 +1,31 @@
+---
+layout: post
+title: Gitlab CI for Java Maven projects
+date: 2018-01-11 23:00:00
+description: Continuous Integration for Java Maven projects with Gitlab CI
+---
+
+ur projects’ testing and deployment.
+
+Gitlab CI file with coverage 
+  1. Ensure the Maven project already have the jacoco plugin running as detailed in [maven](/maven)
+  2.  Add   to .gitlab-ci.yml
+  3. Configure the test covering parsing regexp in https://gitlab.lsdupm.ovh/lx/$PROJECT/settings/ci_cd as "Total.*?([0-9]{1,3})%"
+
+
+* Gitlab README.md with build status and coverage 
+
+# GitLab
+
+[![Build status](https://gitlab.lsdupm.ovh/lx/$PROJECT/badges/master/build.svg)](https://gitlab.lsdupm.ovh/lx/$PROJECT/commits/master)
+[![Coverage report](https://gitlab.lsdupm.ovh/lx/$PROJECT/badges/master/coverage.svg)](https://gitlab.lsdupm.ovh/lx/$PROJECT/commits/master)
+```
+{% highlight yaml %}
+       script:
+        - 'cat target/site/jacoco/index.html'
+       artifacts:
+        paths: 
+         - target/site/jacoco/
+{% endhighlight %}
+~                                                                                                                                                                                              
+~                       

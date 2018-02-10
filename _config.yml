@@ -30,8 +30,8 @@ google_analytics: UA-47422247-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: TODO
-blog_description: WIP
+blog_name: Daedalus
+blog_description: On Big Data, Research and Software Development
 
 # Pagination
 paginate: 4
