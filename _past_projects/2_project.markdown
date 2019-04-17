@@ -1,7 +1,8 @@
 ---
 layout: page
 title: CoherentPaaS
-description: EU FP7
-img: /assets/img/cpaas.png
+description: Developed an innovative PaaS platform with a common programming model, CloudMdsQL, and transactional coherence on several data management systems, SQL and NoSQL.
+type: EU FP7
+img: cpaas.png
 redirect: http://coherentpaas.eu/
 ---

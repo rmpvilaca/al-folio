@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Ricardo Vilaça
+title: Ricardo Vilaça
 email: rmpvilaca@gmail.com
 description: > # this means to ignore newlines until "url:"
   Ricardo Vilaça personal website.

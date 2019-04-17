@@ -5,4 +5,5 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-scholar'
     gem 'jemoji'
+    gem 'unicode_utils', require: false unless RUBY_VERSION >= '2.4'
 end

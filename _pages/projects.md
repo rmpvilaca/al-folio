@@ -1,92 +1,60 @@
 ---
-layout: page
-title: projects
+title: "projects"
+layout: default
+sitemap: false
 permalink: /projects/
-description: Current and past research projects.
 ---
 
-<strong>Ongoing projects</strong>
+# Ongoing projects
 {% for project in site.projects %}
-
-{% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
+        {% if project.redirect %}
+        <a href="{{ project.redirect | prepend: site.baseurl | prepend: site.url }}">
+         {% else %}
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        {% endif %}  
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+       <img class="thumbnail" src="{{ site.url }}{{ site.baseurl }}/assets/img/{{project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ project.type }}</p>
         </span>
+        <p>{{ project.description }}</p>
         </a>
     </div>
 </div>
-
-{% endif %}
-
 {% endfor %}
 
-<strong>Past projects</strong>
+<span>
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+</span>
+
+# Past projects
 {% for project in site.past_projects %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-
 <div class="project ">
     <div class="thumbnail">
+        {% if project.redirect %}
+        <a href="{{ project.redirect | prepend: site.baseurl | prepend: site.url }}">
+         {% else %}
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        {% endif %}  
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+       <img class="thumbnail" src="{{ site.url }}{{ site.baseurl }}/assets/img/{{project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ project.type }}</p>
         </span>
+        <p>{{ project.description }}</p>
         </a>
     </div>
 </div>
-
-{% endif %}
-
 {% endfor %}
