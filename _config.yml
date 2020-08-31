@@ -32,7 +32,7 @@ google_analytics: UA-47422247-1 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Daedalus
-blog_description: On Big Data, Research and Software Development
+blog_description: On Big Data, HPC, Research and Software Development
 
 # Pagination
 paginate: 4
